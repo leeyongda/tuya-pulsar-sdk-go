@@ -11,10 +11,9 @@ https://github.com/apache/pulsar-client-go
 3. pulsar地址：根据不同的业务区域选择 Pulsar 地址。可以从涂鸦对接文档中查询获取。
 
 参数说明如下：
-
-1. accessId：填写云开发平台中 API 授权密钥的 Access ID。
-2. accessKey：填写云开发平台中 API 授权密钥的 Access Secret。
-3. url：根据调用的区域进行选择
+1. AccessID：填写云开发平台中 API 授权密钥的 Access ID。
+2. AccessKey：填写云开发平台中 API 授权密钥的 Access Secret。
+3. Pulsar URL：根据调用的区域进行选择
     > CN_SERVER_URL(中国区)：pulsar+ssl://mqe.tuyacn.com:7285/
 
     > US_SERVER_URL(美国区)：pulsar+ssl://mqe.tuyaus.com:7285/
@@ -23,7 +22,7 @@ https://github.com/apache/pulsar-client-go
 
     > IND_SERVER_URL(印度区)：pulsar+ssl://mqe.tuyain.com:7285/
 
-### Example: [https://github.com/leeyongda/tuya-pulsar-sdk-go/blob/main/example]
+### [example](https://github.com/leeyongda/tuya-pulsar-sdk-go/blob/main/example)
 
 ## 注意事项
 
@@ -35,7 +34,6 @@ https://github.com/apache/pulsar-client-go
 
 你可以通过以下方式获得Tua开发者技术支持：
 
-- 涂鸦帮助中心: [https://support.tuya.com/zh/help](https://support.tuya.com/zh/help)
-- 涂鸦技术工单平台: [https://iot.tuya.com/council](https://iot.tuya.com/council)
-
-- 基于 Puslar SDK 获取消息推送：[https://developer.tuya.com/cn/docs/iot/Puslar-SDK-get-message?id=Kan0klj9qbv3l]
+- [涂鸦帮助中心](https://support.tuya.com/zh/help)
+- [涂鸦技术工单平台](https://iot.tuya.com/council)
+- [基于 Puslar SDK 获取消息推送](https://developer.tuya.com/cn/docs/iot/Puslar-SDK-get-message?id=Kan0klj9qbv3l)
